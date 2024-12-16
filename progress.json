@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "generating",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/users/{userId}/settings",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/bindles/{bindleId}/llmData",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/bindles/{bindleId}/cloudApps",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "dashboard/user/bindles/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "user",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/user/llm-integration/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "user",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/admin/cloud-integration/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "admin",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
